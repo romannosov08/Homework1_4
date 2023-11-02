@@ -1,0 +1,4 @@
+string="Death there mirth way the noisy merit"
+list=string.split()
+list.reverse()
+print(list)
