@@ -1,0 +1,5 @@
+string="3 5 -7 -13 43 8 0 -13 8 -1 2"
+list = [int(num) for num in string.split()]
+n=list.pop(-1)
+list2=[num**n for num in list]
+print(list2)
