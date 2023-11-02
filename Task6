@@ -1,0 +1,5 @@
+string = input("Введите текст со словами в скобках, например: Всем привет, я Рома (меня так зовут).")
+x = string.find("(")
+y = string.find(")")
+string = string[:x]+string[y+2:]
+print(string)
