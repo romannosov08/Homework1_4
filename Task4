@@ -1,0 +1,4 @@
+string=input("Введите предложение на английском языке")
+n=input("Какую букву необходимо удвоить?")
+string=string.replace(n,n*2)
+print(string)
