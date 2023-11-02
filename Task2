@@ -1,0 +1,2 @@
+string="In the hole in the ground there lived a hobbit"
+print(string[0::2])
